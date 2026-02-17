@@ -8,12 +8,13 @@ from agents.writer import WriterAgent
 from agents.critic import CriticAgent
 
 from rag.vector_store import index_products
+from app.campaign_email_sender import send_campaign_email
 
 
 def main(topic):
 
-    print("Indexing products...")
-    index_products()
+    # print("Indexing products...")
+    # index_products()
 
     planner = PlannerAgent("planner")
     retriever = RetrieverAgent()
@@ -46,6 +47,12 @@ def main(topic):
 
     print("\n====== FINAL EMAIL ======\n")
     print(final_email)
+
+    send_campaign_email(
+        final_email,
+        to_email="prajwal.sk@anko.com",
+        first_name="Customer"
+    )
 
 
 if __name__ == "__main__":
