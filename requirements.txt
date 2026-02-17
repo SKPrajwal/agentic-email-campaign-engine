@@ -1,0 +1,7 @@
+google-cloud-aiplatform>=1.60.0
+vertexai
+pydantic
+chromadb
+sentence-transformers
+pandas
+python-dotenv
