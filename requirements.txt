@@ -1,7 +1,10 @@
 google-cloud-aiplatform>=1.60.0
 vertexai
-pydantic
-chromadb
+pydantic==2.7.4
+chromadb==0.4.24
 sentence-transformers
 pandas
 python-dotenv
+boto3
+faiss-cpu
+numpy
