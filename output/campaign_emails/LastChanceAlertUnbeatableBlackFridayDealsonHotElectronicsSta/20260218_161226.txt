@@ -1,0 +1,46 @@
+**Subject Line:** "Last Chance Alert! Unbeatable Black Friday Deals on Hot Electronics – Starting Soon!"
+
+**Preheader Text:** "Unlock exclusive Black Friday discounts now – Don’t wait!"
+
+---
+
+**Opening Section:**
+
+**Header Image:** A vibrant, dynamic image showcasing popular electronics with a Black Friday sale tag.
+
+**Headline:** "Black Friday is Almost Here – Prepare for Unbeatable Deals!"
+
+**Subheadline:** "From smartphones to gaming consoles, our biggest sale of the year is just around the corner!"
+
+---
+
+**Body Content:**
+
+**Section 1: Countdown Timer**
+
+**Visual Element:** Countdown timer showing days, hours, minutes, and seconds until the deals go live.
+
+**Text:** "Hurry! Our Black Friday deals start in [X] hours. Act fast to secure these incredible savings before they’re gone!"
+
+---
+
+**Section 2: Featured Deals**
+
+**Visual Element:** Carousel or grid of featured products with discount percentages.
+
+**Text:** "Here’s a sneak peek at the top electronics deals you won’t want to miss this Black Friday! Check out the top 5 best-selling electronics accessories:
+
+1. **Smart Home Hub**
+   - **Brand:** KraftHome
+   - **Original Price:** $390.15
+   - **Discounted Price:** $290.15
+   - **Rating:** 5.0
+   - **Stock Quantity:** 339
+   - **Description:** Elevate your home automation with our Smart Home Hub. Designed for ultimate convenience and modern living, this high-quality electronics accessory is perfect for any tech-savvy individual.
+
+2. **Ultra-Slim Power Bank**
+   - **Brand:** TrendAura
+   - **Original Price:** $35.46
+   - **Discounted Price:** $21.46
+   - **Rating:** 5.0
+   - **Stock Quantity:**

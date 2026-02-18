@@ -1,5 +1,3 @@
-import argparse
-
 from agents.planner import PlannerAgent
 from agents.retriever import RetrieverAgent
 from agents.curator import CuratorAgent
@@ -7,50 +5,67 @@ from agents.strategist import StrategyAgent
 from agents.writer import WriterAgent
 from agents.critic import CriticAgent
 
-from rag.vector_store import index_products
-from app.campaign_email_sender import send_campaign_email
+# from rag.vector_store import index_products
+# from app.campaign_email_sender import send_campaign_email
+from app.email_renderer import send_campaign_email
 
+# Halloween festival
+# Valentines festival
 
-def main(topic):
-
-    # print("Indexing products...")
-    # index_products()
+def main(topic, to_email='prajwal.sk@anko.com'):
 
     planner = PlannerAgent("planner")
     retriever = RetrieverAgent()
     curator = CuratorAgent("curator")
     strategist = StrategyAgent("strategist")
     writer = WriterAgent("writer")
-    # strategic_writer = StrategicWriterAgent("strategic_writer")
     critic = CriticAgent("critic")
 
+    agents = {
+        "retrieve": retriever,
+        "curate": curator,
+        "strategize": strategist,
+        "write": writer,
+        "critic": critic
+    }
+
+    context = {"topic": topic}
+
     print("\nRunning Planner...")
-    planner.run(topic)
+    plan = planner.run(topic)
 
-    print("Retrieving products...")
-    products = retriever.run(topic)
+    print(plan)
 
-    print("Curating...")
-    curated = curator.run(topic, products)
+    for step in plan["execution_plan"]:
 
-    print("Strategizing...")
-    strategy = strategist.run(topic)
+        step_name = step["step"]
+        print(f"\nExecuting {step_name}...")
 
-    print("Writing email...")
-    email = writer.run(topic, curated, strategy)
-    
-    # print("Strategizing and Mail writer...")
-    # email = strategic_writer.run(topic)
+        if step_name == "retrieve":
+            context["products"] = agents[step_name].run(topic)
 
-    print("Critiquing...")
-    final_email = critic.run(email)
+        elif step_name == "curate":
+            context["curated"] = agents[step_name].run(topic, context["products"])
+
+        elif step_name == "strategize":
+            context["strategy"] = agents[step_name].run(topic)
+
+        elif step_name == "write":
+            context["email"] = agents[step_name].run(
+                topic,
+                context["curated"],
+                context["strategy"]
+            )
+
+        elif step_name == "critic":
+            context["final_email"] = agents[step_name].run(context["email"])
 
     print("\n====== FINAL EMAIL ======\n")
-    print(final_email)
-
+    print(context)
+    
     send_campaign_email(
-        final_email,
-        to_email="prajwal.sk@anko.com",
+        email_json=context["final_email"],
+        to_email=["prajwal.sk@anko.com"],
         first_name="Customer"
     )
 
@@ -64,5 +79,6 @@ if __name__ == "__main__":
     # main(args.topic)
 
     topic = input('Topic for Campaign:\n')
-    main(topic)
+    to_email = input('Enter TO EMAIL for campaign:\n')
+    main(topic, to_email)
     

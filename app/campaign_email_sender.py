@@ -19,8 +19,12 @@ from email.mime.text import MIMEText
 # CONFIG (DUMMY SMTP — replace later if needed)
 # =====================================================
 
-SMTP_SERVER = "localhost"
-SMTP_PORT = 1025
+# SMTP_SERVER = "localhost"
+# SMTP_PORT = 1025
+# SMTP_SERVER = "smtp.gmail.com"
+# SMTP_PORT = 587
+SMTP_SERVER = "appsmtpgw.core.kmtltd.net.au"
+SMTP_PORT = 25
 FROM_EMAIL = "campaign-agent@demo.ai"
 
 
@@ -109,7 +113,7 @@ def send_campaign_email(raw_generated_email, to_email, first_name="Customer"):
 
     msg = MIMEMultipart("alternative")
     msg["From"] = FROM_EMAIL
-    msg["To"] = to_email
+    msg["To"] = ",".join(x for x in to_email)
     msg["Subject"] = subject
 
     msg.attach(MIMEText(html_content, "html"))
@@ -122,7 +126,8 @@ def send_campaign_email(raw_generated_email, to_email, first_name="Customer"):
 
     try:
         with smtplib.SMTP(SMTP_SERVER, SMTP_PORT) as server:
-            server.send_message(msg)
+            # server.send_message(msg)
+            server.sendmail(FROM_EMAIL, to_email, msg.as_string())
 
         print("Campaign email sent successfully!")
 

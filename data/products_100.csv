@@ -1,0 +1,101 @@
+ID,IMAGE_URL,name,sku,category,color,size,weight,description,price,brand
+1,https://picsum.photos/seed/product1/400/400,Nova Sports Product 1,SKU-1001,Sports,Blue,XS,4.83,High quality sports item from Nova in Blue color.,449.17,Nova
+2,https://picsum.photos/seed/product2/400/400,Velora Home Product 2,SKU-1002,Home,Black,L,3.72,High quality home item from Velora in Black color.,444.49,Velora
+3,https://picsum.photos/seed/product3/400/400,Aether Electronics Product 3,SKU-1003,Electronics,Green,M,2.82,High quality electronics item from Aether in Green color.,64.22,Aether
+4,https://picsum.photos/seed/product4/400/400,Aether Sports Product 4,SKU-1004,Sports,Blue,XS,1.24,High quality sports item from Aether in Blue color.,387.84,Aether
+5,https://picsum.photos/seed/product5/400/400,Aether Sports Product 5,SKU-1005,Sports,Black,One Size,1.01,High quality sports item from Aether in Black color.,454.56,Aether
+6,https://picsum.photos/seed/product6/400/400,Nova Home Product 6,SKU-1006,Home,Red,S,1.97,High quality home item from Nova in Red color.,425.27,Nova
+7,https://picsum.photos/seed/product7/400/400,Velora Electronics Product 7,SKU-1007,Electronics,Black,One Size,3.79,High quality electronics item from Velora in Black color.,322.86,Velora
+8,https://picsum.photos/seed/product8/400/400,Aether Sports Product 8,SKU-1008,Sports,Blue,L,2.97,High quality sports item from Aether in Blue color.,258.51,Aether
+9,https://picsum.photos/seed/product9/400/400,KmartX Sports Product 9,SKU-1009,Sports,Red,L,4.36,High quality sports item from KmartX in Red color.,134.35,KmartX
+10,https://picsum.photos/seed/product10/400/400,Zento Home Product 10,SKU-1010,Home,Blue,One Size,4.56,High quality home item from Zento in Blue color.,202.48,Zento
+11,https://picsum.photos/seed/product11/400/400,UrbanEdge Home Product 11,SKU-1011,Home,Red,XL,4.97,High quality home item from UrbanEdge in Red color.,263.89,UrbanEdge
+12,https://picsum.photos/seed/product12/400/400,UrbanEdge Beauty Product 12,SKU-1012,Beauty,Red,One Size,4.06,High quality beauty item from UrbanEdge in Red color.,380.2,UrbanEdge
+13,https://picsum.photos/seed/product13/400/400,Zento Sports Product 13,SKU-1013,Sports,White,S,0.94,High quality sports item from Zento in White color.,265.34,Zento
+14,https://picsum.photos/seed/product14/400/400,UrbanEdge Sports Product 14,SKU-1014,Sports,Red,One Size,3.1,High quality sports item from UrbanEdge in Red color.,344.67,UrbanEdge
+15,https://picsum.photos/seed/product15/400/400,Velora Sports Product 15,SKU-1015,Sports,Green,XL,2.17,High quality sports item from Velora in Green color.,156.57,Velora
+16,https://picsum.photos/seed/product16/400/400,Aether Sports Product 16,SKU-1016,Sports,Green,M,4.3,High quality sports item from Aether in Green color.,217.6,Aether
+17,https://picsum.photos/seed/product17/400/400,UrbanEdge Electronics Product 17,SKU-1017,Electronics,Black,S,4.14,High quality electronics item from UrbanEdge in Black color.,202.14,UrbanEdge
+18,https://picsum.photos/seed/product18/400/400,Nova Home Product 18,SKU-1018,Home,Black,XL,0.37,High quality home item from Nova in Black color.,476.98,Nova
+19,https://picsum.photos/seed/product19/400/400,UrbanEdge Clothing Product 19,SKU-1019,Clothing,Green,XS,1.64,High quality clothing item from UrbanEdge in Green color.,310.37,UrbanEdge
+20,https://picsum.photos/seed/product20/400/400,Nova Clothing Product 20,SKU-1020,Clothing,Black,S,4.39,High quality clothing item from Nova in Black color.,392.58,Nova
+21,https://picsum.photos/seed/product21/400/400,Nova Home Product 21,SKU-1021,Home,White,S,0.93,High quality home item from Nova in White color.,97.77,Nova
+22,https://picsum.photos/seed/product22/400/400,Velora Beauty Product 22,SKU-1022,Beauty,Grey,M,4.92,High quality beauty item from Velora in Grey color.,443.77,Velora
+23,https://picsum.photos/seed/product23/400/400,KmartX Sports Product 23,SKU-1023,Sports,White,XL,1.72,High quality sports item from KmartX in White color.,324.0,KmartX
+24,https://picsum.photos/seed/product24/400/400,Velora Clothing Product 24,SKU-1024,Clothing,White,XL,0.32,High quality clothing item from Velora in White color.,398.61,Velora
+25,https://picsum.photos/seed/product25/400/400,KmartX Electronics Product 25,SKU-1025,Electronics,Black,One Size,4.88,High quality electronics item from KmartX in Black color.,479.68,KmartX
+26,https://picsum.photos/seed/product26/400/400,Zento Sports Product 26,SKU-1026,Sports,Red,One Size,1.34,High quality sports item from Zento in Red color.,430.53,Zento
+27,https://picsum.photos/seed/product27/400/400,UrbanEdge Beauty Product 27,SKU-1027,Beauty,Green,S,3.7,High quality beauty item from UrbanEdge in Green color.,81.78,UrbanEdge
+28,https://picsum.photos/seed/product28/400/400,Velora Beauty Product 28,SKU-1028,Beauty,Blue,XL,2.89,High quality beauty item from Velora in Blue color.,191.47,Velora
+29,https://picsum.photos/seed/product29/400/400,UrbanEdge Sports Product 29,SKU-1029,Sports,Red,XL,3.13,High quality sports item from UrbanEdge in Red color.,394.14,UrbanEdge
+30,https://picsum.photos/seed/product30/400/400,UrbanEdge Sports Product 30,SKU-1030,Sports,Blue,S,2.16,High quality sports item from UrbanEdge in Blue color.,225.89,UrbanEdge
+31,https://picsum.photos/seed/product31/400/400,Velora Sports Product 31,SKU-1031,Sports,Blue,M,1.54,High quality sports item from Velora in Blue color.,367.97,Velora
+32,https://picsum.photos/seed/product32/400/400,Aether Home Product 32,SKU-1032,Home,Grey,XL,2.41,High quality home item from Aether in Grey color.,83.96,Aether
+33,https://picsum.photos/seed/product33/400/400,UrbanEdge Sports Product 33,SKU-1033,Sports,Green,S,2.65,High quality sports item from UrbanEdge in Green color.,436.85,UrbanEdge
+34,https://picsum.photos/seed/product34/400/400,Zento Clothing Product 34,SKU-1034,Clothing,Black,M,4.39,High quality clothing item from Zento in Black color.,344.9,Zento
+35,https://picsum.photos/seed/product35/400/400,Velora Beauty Product 35,SKU-1035,Beauty,Blue,XS,4.37,High quality beauty item from Velora in Blue color.,317.9,Velora
+36,https://picsum.photos/seed/product36/400/400,Zento Clothing Product 36,SKU-1036,Clothing,Black,M,1.62,High quality clothing item from Zento in Black color.,188.9,Zento
+37,https://picsum.photos/seed/product37/400/400,KmartX Beauty Product 37,SKU-1037,Beauty,Blue,S,0.76,High quality beauty item from KmartX in Blue color.,112.89,KmartX
+38,https://picsum.photos/seed/product38/400/400,Nova Clothing Product 38,SKU-1038,Clothing,Blue,XL,0.86,High quality clothing item from Nova in Blue color.,268.18,Nova
+39,https://picsum.photos/seed/product39/400/400,Velora Home Product 39,SKU-1039,Home,Blue,XS,2.47,High quality home item from Velora in Blue color.,165.74,Velora
+40,https://picsum.photos/seed/product40/400/400,KmartX Clothing Product 40,SKU-1040,Clothing,Black,S,1.95,High quality clothing item from KmartX in Black color.,421.6,KmartX
+41,https://picsum.photos/seed/product41/400/400,UrbanEdge Sports Product 41,SKU-1041,Sports,White,XS,0.42,High quality sports item from UrbanEdge in White color.,164.44,UrbanEdge
+42,https://picsum.photos/seed/product42/400/400,Zento Clothing Product 42,SKU-1042,Clothing,Green,XS,2.08,High quality clothing item from Zento in Green color.,182.45,Zento
+43,https://picsum.photos/seed/product43/400/400,Velora Home Product 43,SKU-1043,Home,Grey,S,1.53,High quality home item from Velora in Grey color.,176.9,Velora
+44,https://picsum.photos/seed/product44/400/400,Nova Clothing Product 44,SKU-1044,Clothing,Black,XL,2.81,High quality clothing item from Nova in Black color.,444.43,Nova
+45,https://picsum.photos/seed/product45/400/400,Velora Clothing Product 45,SKU-1045,Clothing,White,L,3.27,High quality clothing item from Velora in White color.,11.07,Velora
+46,https://picsum.photos/seed/product46/400/400,Velora Home Product 46,SKU-1046,Home,Green,L,4.68,High quality home item from Velora in Green color.,423.64,Velora
+47,https://picsum.photos/seed/product47/400/400,Nova Clothing Product 47,SKU-1047,Clothing,Blue,L,4.09,High quality clothing item from Nova in Blue color.,424.03,Nova
+48,https://picsum.photos/seed/product48/400/400,Zento Electronics Product 48,SKU-1048,Electronics,Green,One Size,0.64,High quality electronics item from Zento in Green color.,161.32,Zento
+49,https://picsum.photos/seed/product49/400/400,Nova Electronics Product 49,SKU-1049,Electronics,Green,S,0.36,High quality electronics item from Nova in Green color.,430.48,Nova
+50,https://picsum.photos/seed/product50/400/400,Velora Electronics Product 50,SKU-1050,Electronics,Red,L,2.56,High quality electronics item from Velora in Red color.,58.51,Velora
+51,https://picsum.photos/seed/product51/400/400,Zento Clothing Product 51,SKU-1051,Clothing,Green,One Size,1.47,High quality clothing item from Zento in Green color.,254.12,Zento
+52,https://picsum.photos/seed/product52/400/400,Zento Home Product 52,SKU-1052,Home,Grey,M,1.39,High quality home item from Zento in Grey color.,332.93,Zento
+53,https://picsum.photos/seed/product53/400/400,Velora Electronics Product 53,SKU-1053,Electronics,Grey,M,0.71,High quality electronics item from Velora in Grey color.,187.98,Velora
+54,https://picsum.photos/seed/product54/400/400,Zento Electronics Product 54,SKU-1054,Electronics,Blue,One Size,2.49,High quality electronics item from Zento in Blue color.,309.01,Zento
+55,https://picsum.photos/seed/product55/400/400,Velora Electronics Product 55,SKU-1055,Electronics,Red,One Size,4.4,High quality electronics item from Velora in Red color.,147.41,Velora
+56,https://picsum.photos/seed/product56/400/400,KmartX Home Product 56,SKU-1056,Home,White,XS,0.34,High quality home item from KmartX in White color.,260.25,KmartX
+57,https://picsum.photos/seed/product57/400/400,KmartX Sports Product 57,SKU-1057,Sports,Grey,XL,4.02,High quality sports item from KmartX in Grey color.,123.75,KmartX
+58,https://picsum.photos/seed/product58/400/400,Aether Beauty Product 58,SKU-1058,Beauty,Green,One Size,0.96,High quality beauty item from Aether in Green color.,304.77,Aether
+59,https://picsum.photos/seed/product59/400/400,UrbanEdge Clothing Product 59,SKU-1059,Clothing,Red,S,4.7,High quality clothing item from UrbanEdge in Red color.,268.55,UrbanEdge
+60,https://picsum.photos/seed/product60/400/400,KmartX Beauty Product 60,SKU-1060,Beauty,Blue,XL,0.96,High quality beauty item from KmartX in Blue color.,403.27,KmartX
+61,https://picsum.photos/seed/product61/400/400,Nova Clothing Product 61,SKU-1061,Clothing,Black,XL,1.96,High quality clothing item from Nova in Black color.,150.29,Nova
+62,https://picsum.photos/seed/product62/400/400,Zento Beauty Product 62,SKU-1062,Beauty,White,One Size,0.29,High quality beauty item from Zento in White color.,214.14,Zento
+63,https://picsum.photos/seed/product63/400/400,Velora Sports Product 63,SKU-1063,Sports,Green,M,3.86,High quality sports item from Velora in Green color.,56.72,Velora
+64,https://picsum.photos/seed/product64/400/400,Zento Electronics Product 64,SKU-1064,Electronics,White,S,0.72,High quality electronics item from Zento in White color.,347.09,Zento
+65,https://picsum.photos/seed/product65/400/400,Nova Beauty Product 65,SKU-1065,Beauty,White,XS,3.74,High quality beauty item from Nova in White color.,319.28,Nova
+66,https://picsum.photos/seed/product66/400/400,UrbanEdge Beauty Product 66,SKU-1066,Beauty,Black,S,4.38,High quality beauty item from UrbanEdge in Black color.,411.87,UrbanEdge
+67,https://picsum.photos/seed/product67/400/400,Nova Home Product 67,SKU-1067,Home,Blue,XL,1.49,High quality home item from Nova in Blue color.,30.37,Nova
+68,https://picsum.photos/seed/product68/400/400,Velora Home Product 68,SKU-1068,Home,Black,One Size,1.22,High quality home item from Velora in Black color.,227.31,Velora
+69,https://picsum.photos/seed/product69/400/400,Aether Clothing Product 69,SKU-1069,Clothing,Green,L,3.01,High quality clothing item from Aether in Green color.,274.46,Aether
+70,https://picsum.photos/seed/product70/400/400,Nova Electronics Product 70,SKU-1070,Electronics,Green,M,2.08,High quality electronics item from Nova in Green color.,158.34,Nova
+71,https://picsum.photos/seed/product71/400/400,Nova Beauty Product 71,SKU-1071,Beauty,Blue,XS,1.88,High quality beauty item from Nova in Blue color.,25.52,Nova
+72,https://picsum.photos/seed/product72/400/400,Aether Sports Product 72,SKU-1072,Sports,Green,M,0.85,High quality sports item from Aether in Green color.,451.29,Aether
+73,https://picsum.photos/seed/product73/400/400,Aether Home Product 73,SKU-1073,Home,Green,M,1.26,High quality home item from Aether in Green color.,173.48,Aether
+74,https://picsum.photos/seed/product74/400/400,Zento Clothing Product 74,SKU-1074,Clothing,Grey,L,2.86,High quality clothing item from Zento in Grey color.,22.75,Zento
+75,https://picsum.photos/seed/product75/400/400,Velora Electronics Product 75,SKU-1075,Electronics,Black,XS,0.43,High quality electronics item from Velora in Black color.,382.38,Velora
+76,https://picsum.photos/seed/product76/400/400,Velora Home Product 76,SKU-1076,Home,Grey,L,3.54,High quality home item from Velora in Grey color.,219.46,Velora
+77,https://picsum.photos/seed/product77/400/400,Velora Sports Product 77,SKU-1077,Sports,White,M,1.06,High quality sports item from Velora in White color.,238.49,Velora
+78,https://picsum.photos/seed/product78/400/400,Velora Sports Product 78,SKU-1078,Sports,Green,S,2.42,High quality sports item from Velora in Green color.,40.66,Velora
+79,https://picsum.photos/seed/product79/400/400,KmartX Sports Product 79,SKU-1079,Sports,Green,S,2.35,High quality sports item from KmartX in Green color.,77.85,KmartX
+80,https://picsum.photos/seed/product80/400/400,KmartX Clothing Product 80,SKU-1080,Clothing,Green,M,4.58,High quality clothing item from KmartX in Green color.,18.41,KmartX
+81,https://picsum.photos/seed/product81/400/400,Nova Sports Product 81,SKU-1081,Sports,Green,XS,1.85,High quality sports item from Nova in Green color.,306.4,Nova
+82,https://picsum.photos/seed/product82/400/400,UrbanEdge Sports Product 82,SKU-1082,Sports,Green,XS,1.52,High quality sports item from UrbanEdge in Green color.,213.88,UrbanEdge
+83,https://picsum.photos/seed/product83/400/400,UrbanEdge Beauty Product 83,SKU-1083,Beauty,Grey,One Size,0.51,High quality beauty item from UrbanEdge in Grey color.,387.43,UrbanEdge
+84,https://picsum.photos/seed/product84/400/400,UrbanEdge Electronics Product 84,SKU-1084,Electronics,Grey,S,2.34,High quality electronics item from UrbanEdge in Grey color.,449.66,UrbanEdge
+85,https://picsum.photos/seed/product85/400/400,Aether Beauty Product 85,SKU-1085,Beauty,White,S,2.43,High quality beauty item from Aether in White color.,14.39,Aether
+86,https://picsum.photos/seed/product86/400/400,UrbanEdge Sports Product 86,SKU-1086,Sports,Blue,XS,0.65,High quality sports item from UrbanEdge in Blue color.,307.33,UrbanEdge
+87,https://picsum.photos/seed/product87/400/400,Aether Electronics Product 87,SKU-1087,Electronics,Red,S,2.02,High quality electronics item from Aether in Red color.,387.85,Aether
+88,https://picsum.photos/seed/product88/400/400,Zento Beauty Product 88,SKU-1088,Beauty,Red,XS,4.5,High quality beauty item from Zento in Red color.,184.04,Zento
+89,https://picsum.photos/seed/product89/400/400,Zento Sports Product 89,SKU-1089,Sports,Green,S,4.66,High quality sports item from Zento in Green color.,111.94,Zento
+90,https://picsum.photos/seed/product90/400/400,Velora Electronics Product 90,SKU-1090,Electronics,White,L,3.02,High quality electronics item from Velora in White color.,85.98,Velora
+91,https://picsum.photos/seed/product91/400/400,KmartX Clothing Product 91,SKU-1091,Clothing,Black,M,1.21,High quality clothing item from KmartX in Black color.,441.54,KmartX
+92,https://picsum.photos/seed/product92/400/400,Nova Beauty Product 92,SKU-1092,Beauty,Blue,One Size,0.49,High quality beauty item from Nova in Blue color.,86.58,Nova
+93,https://picsum.photos/seed/product93/400/400,Zento Sports Product 93,SKU-1093,Sports,Grey,XS,4.36,High quality sports item from Zento in Grey color.,272.7,Zento
+94,https://picsum.photos/seed/product94/400/400,UrbanEdge Clothing Product 94,SKU-1094,Clothing,White,XS,0.66,High quality clothing item from UrbanEdge in White color.,172.36,UrbanEdge
+95,https://picsum.photos/seed/product95/400/400,UrbanEdge Clothing Product 95,SKU-1095,Clothing,Blue,L,1.0,High quality clothing item from UrbanEdge in Blue color.,91.8,UrbanEdge
+96,https://picsum.photos/seed/product96/400/400,Zento Sports Product 96,SKU-1096,Sports,Grey,One Size,3.01,High quality sports item from Zento in Grey color.,116.79,Zento
+97,https://picsum.photos/seed/product97/400/400,Nova Home Product 97,SKU-1097,Home,Grey,M,4.03,High quality home item from Nova in Grey color.,314.33,Nova
+98,https://picsum.photos/seed/product98/400/400,Zento Sports Product 98,SKU-1098,Sports,Blue,S,4.06,High quality sports item from Zento in Blue color.,94.76,Zento
+99,https://picsum.photos/seed/product99/400/400,KmartX Home Product 99,SKU-1099,Home,Green,XS,1.29,High quality home item from KmartX in Green color.,320.92,KmartX
+100,https://picsum.photos/seed/product100/400/400,Zento Beauty Product 100,SKU-1100,Beauty,Blue,XS,0.85,High quality beauty item from Zento in Blue color.,125.06,Zento

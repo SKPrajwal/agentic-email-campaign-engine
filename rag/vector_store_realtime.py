@@ -17,7 +17,7 @@ product_metadata = None
 # Index Products
 # --------------------------------------------------
 
-def index_products(path="agentic-email-campaign-engine/data/products.csv"):
+def index_products(path="agentic-email-campaign-engine/data/amazon_products_10k.csv"):
     global faiss_index, product_metadata
 
     df = pd.read_csv(path)

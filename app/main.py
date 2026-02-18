@@ -8,12 +8,16 @@ from agents.writer import WriterAgent
 from agents.critic import CriticAgent
 
 from rag.vector_store import index_products
+# from app.campaign_email_sender import send_campaign_email
+from app.email_renderer import send_campaign_email
 
+# Halloween festival
+# Valentines festival
 
 def main(topic):
 
-    print("Indexing products...")
-    index_products()
+    # print("Indexing products...")
+    # index_products()
 
     planner = PlannerAgent("planner")
     retriever = RetrieverAgent()
@@ -36,16 +40,35 @@ def main(topic):
     strategy = strategist.run(topic)
 
     print("Writing email...")
-    email = writer.run(topic, curated, strategy)
+    email_json = writer.run(topic, curated, strategy)
     
     # print("Strategizing and Mail writer...")
     # email = strategic_writer.run(topic)
 
     print("Critiquing...")
-    final_email = critic.run(email)
+    final_email_json = critic.run(email_json)
+
 
     print("\n====== FINAL EMAIL ======\n")
-    print(final_email)
+    print(final_email_json)
+    
+    # write_email_to_files(
+    #     subject=final_email_json["subject"],
+    #     raw_text=email_text,
+    #     html_text=email_html
+    # )
+
+    # send_campaign_email(
+    #     final_email,
+    #     to_email=["prajwal.sk@anko.com"],
+    #     first_name="Customer"
+    # )
+
+    send_campaign_email(
+        email_json=final_email_json,
+        to_email=["prajwal.sk@anko.com"],
+        first_name="Customer"
+    )
 
 
 if __name__ == "__main__":
@@ -56,6 +79,6 @@ if __name__ == "__main__":
 
     # main(args.topic)
 
-    topic = input('Give the topic details here')
+    topic = input('Topic for Campaign:\n')
     main(topic)
     
