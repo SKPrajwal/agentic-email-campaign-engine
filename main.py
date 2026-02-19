@@ -61,7 +61,7 @@ def main(topic, to_email='prajwal.sk@anko.com'):
             context["final_email"] = agents[step_name].run(context["email"])
 
     print("\n====== FINAL EMAIL ======\n")
-    print(context)
+    print(context["final_email"])
     
     send_campaign_email(
         email_json=context["final_email"],
